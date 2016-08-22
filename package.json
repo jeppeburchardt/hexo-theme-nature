@@ -1,0 +1,32 @@
+{
+  "name": "hexo-theme-nature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "watch": "gulp watch",
+    "postinstall": "gulp build"
+  },
+  "keywords": [
+    "Hexo",
+    "Even",
+    "Jade"
+  ],
+  "author": "Jeppe Burchardt",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-clean-css": "^2.0.9",
+    "gulp-cli": "^1.2.1",
+    "rimraf": "^2.4.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kosmobot/hexo-theme-nature.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kosmobot/hexo-theme-nature/issues"
+  },
+  "homepage": "https://github.com/kosmobot/hexo-theme-nature#readme"
+}

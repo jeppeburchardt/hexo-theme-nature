@@ -1,0 +1,14 @@
+extends partial/layout
+
+include mixins/container
+include mixins/comment
+
+block title
+  title= page.title + " · " + config.title
+
+block container
+  +page()
+  
+block comment
+  if theme.comments.post
+    +comment()
