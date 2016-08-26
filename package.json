@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/kosmobot/hexo-theme-nature/issues"
   },
-  "homepage": "https://github.com/kosmobot/hexo-theme-nature#readme"
+  "homepage": "https://github.com/kosmobot/hexo-theme-nature#readme",
+  "dependencies": {
+    "hexo-featured-image": "^0.1.1"
+  }
 }

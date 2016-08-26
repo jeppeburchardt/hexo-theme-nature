@@ -2,6 +2,7 @@
 @import url("header.css");
 @import url("home.css");
 @import url("footer.css");
+@import url("tags.css");
 
 
 body {
@@ -37,8 +38,6 @@ h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visit
   }
 }
 
-
-
 ul.home {
   margin: 0;
   padding: 0;
@@ -46,11 +45,13 @@ ul.home {
   list-style: none;
 }
 
-
-.archive .post-item {
-  margin: 20px 0;
+.archive {
 }
-
+.archive h1 {
+}
+.archive .post-item {
+  margin: 30px 0;
+}
 
 .post-title {
   margin-bottom: 0;
@@ -65,38 +66,9 @@ ul.home {
 }
 .post-content img {
   width: 100%;
+  border-radius: 3px;
 }
 
-#sidebar {
-  border-radius: 2px;
-  background-color: #D9D6CE;
-  padding: 10px;
-}
-#sidebar .heading {
-  margin: 0 0 10px 0;
-}
-ol.toc, .toc ol {
-  margin: 0px;
-  padding-left: 30px;
-}
-
-
-.tags {
-  margin: 20px 0;
-}
-.tags a {
-  display: inline-block;
-  background-color: #c5d97e;
-  color: #46531b;
-  text-decoration: none;
-  border-radius: 2px;
-  padding: 4px 8px;
-  margin-right: 15px;
-}
-.tags a:before {
-  content: "#";
-  display: inline;
-}
 
 .paginator {
   padding: 30px;

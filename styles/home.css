@@ -1,18 +1,23 @@
-.home {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .home .post-item {
-  flex: 1 1;
   margin-bottom: 30px;
 }
 
-.home .post-item:first-child {
-  flex: 1 100%;
-  font-size: 1.2em;
-}
+@media only screen and (min-width: 960px) {
+  .home {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.home .post-item:nth-child(2) {
-  margin-right: 30px;
+  .home .post-item {
+    flex: 1 1;
+  }
+
+  .home .post-item:first-child {
+    flex: 1 100%;
+    font-size: 1.2em;
+  }
+
+  .home .post-item:nth-child(2) {
+    margin-right: 30px;
+  }
 }

@@ -18,11 +18,10 @@ header a {
 
 a.logo {
   font-size: 22px;
-
   flex: 0 1 auto;
 }
+
 ul.nav {
-  display: flex;
   display: flex;
 
   margin: 0;
@@ -40,12 +39,17 @@ ul.nav li {
 ul.nav li a {
   text-transform: uppercase;
 }
-div.title {
-  padding: 50px 0 70px 0;
 
-  text-align: center;
-
-  font-size: 32px;
-
-  flex: 1 1 100%;
+@media only screen and (max-width: 960px) {
+  a.logo {
+    margin-bottom: 20px;
+    display: block;
+    flex: 1 100%;
+  }
+  ul.nav {
+    justify-content: flex-start;
+  }
+  ul.nav li {
+    margin: 0 20px 0 0;
+  }
 }

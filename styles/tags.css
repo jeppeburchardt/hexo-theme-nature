@@ -1,0 +1,16 @@
+.tags {
+  margin: 20px 0;
+}
+.tags a {
+  display: inline-block;
+  background-color: #c5d97e;
+  color: #46531b;
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 4px 8px;
+  margin: 5px 10px 5px 0;
+}
+.tags a:before {
+  content: "#";
+  display: inline;
+}
